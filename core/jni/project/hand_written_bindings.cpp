@@ -93,6 +93,7 @@ ALLOCATE_AND_DEALLOCATE(ImFontConfig, JImFontConfig)
 ALLOCATE_AND_DEALLOCATE(ImFontAtlas, JImFontAtlas)
 ALLOCATE_AND_DEALLOCATE(bool, NativeBool)
 ALLOCATE_AND_DEALLOCATE(std::string, NativeString)
+ALLOCATE_AND_DEALLOCATE(igfd::ImGuiFileDialog, JImFileDialog)
 
 #undef ALLOCATE_AND_DEALLOCATE
 

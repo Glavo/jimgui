@@ -4,6 +4,7 @@
 
 #include <imgui.h>
 #include <cstring>
+#include <ImGuiFileDialog.h>
 #include "basics.hpp"
 
 #include <org_ice1000_jimgui_JImVec4.h>
@@ -16,6 +17,7 @@
 #include <org_ice1000_jimgui_JImStyle.h>
 #include <org_ice1000_jimgui_NativeBool.h>
 #include <org_ice1000_jimgui_NativeString.h>
+#include <org_ice1000_jimgui_JImFileDialog.h>
 
 #ifndef WIN32
 #pragma clang diagnostic push
@@ -55,6 +57,7 @@ ALLOCATE_AND_DEALLOCATE_H(JImFontConfig)
 ALLOCATE_AND_DEALLOCATE_H(JImFontAtlas)
 ALLOCATE_AND_DEALLOCATE_H(NativeBool)
 ALLOCATE_AND_DEALLOCATE_H(NativeString)
+ALLOCATE_AND_DEALLOCATE_H(JImFileDialog)
 
 #undef ALLOCATE_AND_DEALLOCATE_H
 
